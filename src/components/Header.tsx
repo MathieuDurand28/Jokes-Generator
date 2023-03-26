@@ -26,7 +26,7 @@ const Header = ({lang}:HeaderProps) => {
     }, [lang])
 
     return (
-        <header className="flex items-center justify-center px-4 py-2 bg-grey-500/100 shadow-md">
+        <header className="flex items-center justify-center px-4 py-2 mb-10 mt-10 bg-grey-500/100 shadow-md">
            <h1 className="text-[1.4rem] font-bold text-sky-500">{phrase}</h1>
         </header>
     );
