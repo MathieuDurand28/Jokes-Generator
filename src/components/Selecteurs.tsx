@@ -38,7 +38,7 @@ const Selecteurs = ({lang, updateLang, updateSearch}:Props) => {
 
     return (
         <div className="flex flex-col items-center justify-center space-y-4">
-            <div className="flex flex-col items-center bg-sky-400/50 w-[80vw] h-[10em] justify-center space-y-4 border-[1px]">
+            <div className="flex flex-col items-center bg-sky-400/50 w-[80vw] sm:w-[350px] md:w-[350px] xl:w-[350px] h-[10em] justify-center space-y-4 border-[1px]">
                 <h4 className="text-white">Quelle langue :</h4>
                 <div className="flex justify-around w-[25em]">
                     <label htmlFor="lang_FR" id="label_FR" className="mr-0">Français</label>
@@ -46,7 +46,7 @@ const Selecteurs = ({lang, updateLang, updateSearch}:Props) => {
                     <label htmlFor="lang_EN" id="label_EN" className="mr-0">Anglais</label>
                     <input className="mr-0 hidden" type="radio" id="lang_EN" name="lang" value="en" onChange={ToggleLang} />
                 </div>
-                <button className="border-black w-40 h-10 rounded bg-sky-400/50 text-white hover:bg-sky-200/50 hover:text-sky-800 duration-300 " onClick={() => GoSearch()}>GO</button>
+                <button className="border-black w-40 h-10 rounded bg-sky-400/50 text-white hover:bg-sky-200/50 hover:text-sky-800 duration-300 " onClick={(e) => GoSearch()}>GO</button>
             </div>
         </div>
     );
