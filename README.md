@@ -11,7 +11,7 @@
 
   Screenshot: 
 
-  ![alt text](https://github.com/MathieuDurand28/Jokes-Generator/blob/main/public/screen%20JokesView.png?raw=true)
+  ![screen](https://github.com/MathieuDurand28/Jokes-Generator/blob/main/public/screen%20JokesView.png?raw=true)
 
 </div>
 
