@@ -1,5 +1,5 @@
 <div align="center">
- #Jokes-Generator v1
+  Jokes-Generator v1
 
   ### App permettant d'afficher des blagues dans deux langues.
 
